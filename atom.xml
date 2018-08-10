@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sissy&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://finesisi.github.io/"/>
+  <updated>2018-08-10T12:51:21.000Z</updated>
+  <id>https://finesisi.github.io/</id>
+  
+  <author>
+    <name>Sissy</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test8:50</title>
+    <link href="https://finesisi.github.io/2018/08/10/test8-50/"/>
+    <id>https://finesisi.github.io/2018/08/10/test8-50/</id>
+    <published>2018-08-10T12:50:31.000Z</published>
+    <updated>2018-08-10T12:51:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>3、打开 主题配置文件 找到Local search，将enable设置为true</p><p>11、添加阅读全文按钮<br>因为在你的博客主页会有多篇文章，如果你想让你的文章只显示一部分，多余的可以点击阅读全文来查看，那么你需要在你的文章中添加</p><a id="more"></a><p>其后面的部分就不会显示了，只能点击阅读全文才能看</p><p>12、修改文章内链接文本样式<br>效果图</p><p>打开文件 themes/next/source/css/_common/components/post/post.styl，在末尾添加<br>.post-body p a {<br>  color: #0593d3;<br>  border-bottom: none;<br>  border-bottom: 1px solid #0593d3;<br>  &amp;:hover {<br>    color: #fc6423;<br>    border-bottom: none;<br>    border-bottom: 1px solid #fc6423;<br>  }<br>}<br>其中选择 .post-body 是为了不影响标题，选择 p 是为了不影响首页“阅读全文”的显示样式,颜色可以自己定义。</p><p>13、设置网站缩略图标<br>从网上看了很多设置方法都是说把favicon.ico放到站点目录的source目录下就可以了，可是我试了好多遍，并不行。</p><p>我的设置方法是这样的：把你的图片（png或jpg格式，不是favicon.ico）放在themes/next/source/images里，然后打开 主题配置文件 找到favicon，将small、medium、apple_touch_icon三个字段的值都设置成/images/图片名.jpg就可以了，其他字段都注释掉。</p><p>14、设置文章字体的颜色、大小<br>效果图</p><p>如果想设置某一句的颜色或大小，只需用html语法写出来就行了</p><p>接下来就是见证奇迹的时刻</p><p><font color="#FF0000"> 我可以设置这一句的颜色哈哈 </font> </p><p><font size="6"> 我还可以设置这一句的大小嘻嘻 </font> </p><p><font size="5" color="#FF0000"> 我甚至可以设置这一句的颜色和大小呵呵</font><br>15、设置文字居中<br>设置方法：</p><p><center>这一行需要居中</center><br>注意：简书中此方法无效</p><p>16、添加评论系统<br>目前国内比较有名的多说、网易云跟帖评论系统都已停止服务了，国外的Disqus评论系统还得需要翻墙，所以不推荐使用，剩下的还有搜狐畅言、友言、来必力等。<br>本来想使用畅言的，结果注册完之后还得要求备案，我只想说F开头的那个单词，果断放弃。</p><p>作者：my_杨哥<br>链接：<a href="https://www.jianshu.com/p/3a05351a37dc" target="_blank" rel="noopener">https://www.jianshu.com/p/3a05351a37dc</a><br>來源：简书<br>简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</p><!--more-->]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;3、打开 主题配置文件 找到Local search，将enable设置为true&lt;/p&gt;
+&lt;p&gt;11、添加阅读全文按钮&lt;br&gt;因为在你的博客主页会有多篇文章，如果你想让你的文章只显示一部分，多余的可以点击阅读全文来查看，那么你需要在你的文章中添加&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test8.10</title>
+    <link href="https://finesisi.github.io/2018/08/10/test8-10/"/>
+    <id>https://finesisi.github.io/2018/08/10/test8-10/</id>
+    <published>2018-08-10T00:56:26.000Z</published>
+    <updated>2018-08-10T00:59:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>textdjddddddereggdfhfç</p><h2 id="df-test"><a href="#df-test" class="headerlink" title="df  test"></a>df  test</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;textdjddddddereggdfhfç&lt;/p&gt;
+&lt;h2 id=&quot;df-test&quot;&gt;&lt;a href=&quot;#df-test&quot; class=&quot;headerlink&quot; title=&quot;df  test&quot;&gt;&lt;/a&gt;df  test&lt;/h2&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>kkkkkkkkk</title>
+    <link href="https://finesisi.github.io/2018/08/10/kkkkkkkkk/"/>
+    <id>https://finesisi.github.io/2018/08/10/kkkkkkkkk/</id>
+    <published>2018-08-10T00:44:49.000Z</published>
+    <updated>2018-08-10T00:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="woshi-lai-ceshi-de"><a href="#woshi-lai-ceshi-de" class="headerlink" title="woshi lai ceshi de"></a>woshi lai ceshi de</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;woshi-lai-ceshi-de&quot;&gt;&lt;a href=&quot;#woshi-lai-ceshi-de&quot; class=&quot;headerlink&quot; title=&quot;woshi lai ceshi de&quot;&gt;&lt;/a&gt;woshi lai ceshi de&lt;/h2&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test 8.8_2</title>
+    <link href="https://finesisi.github.io/2018/08/08/test-8-8-2/"/>
+    <id>https://finesisi.github.io/2018/08/08/test-8-8-2/</id>
+    <published>2018-08-08T03:15:14.000Z</published>
+    <updated>2018-08-08T03:15:14.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My Fist Post with hexo</title>
+    <link href="https://finesisi.github.io/2018/08/05/My-Fist-Post-with-hexo/"/>
+    <id>https://finesisi.github.io/2018/08/05/My-Fist-Post-with-hexo/</id>
+    <published>2018-08-05T01:19:37.000Z</published>
+    <updated>2018-08-05T01:19:37.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://finesisi.github.io/2018/08/03/hello-world/"/>
+    <id>https://finesisi.github.io/2018/08/03/hello-world/</id>
+    <published>2018-08-03T09:01:47.000Z</published>
+    <updated>2018-08-03T09:01:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test8.8-3</title>
+    <link href="https://finesisi.github.io/2016/09/25/test8-8-3/"/>
+    <id>https://finesisi.github.io/2016/09/25/test8-8-3/</id>
+    <published>2016-09-25T12:03:25.000Z</published>
+    <updated>2018-08-08T14:31:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This my first post using <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! </p><h2 id="First-title"><a href="#First-title" class="headerlink" title="First title"></a>First title</h2><h3 id="a-first-subtitile"><a href="#a-first-subtitile" class="headerlink" title="a first subtitile"></a>a first subtitile</h3><pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure></code></pre><h2 id="Second-title"><a href="#Second-title" class="headerlink" title="Second title"></a>Second title</h2><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This my first post using &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! &lt;/p&gt;
+&lt;h2 id=&quot;First-title&quot;&gt;&lt;a href=&quot;#First-ti
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
