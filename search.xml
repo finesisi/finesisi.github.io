@@ -4,11 +4,17 @@
     <title><![CDATA[test8:50]]></title>
     <url>%2F2018%2F08%2F10%2Ftest8-50%2F</url>
     <content type="text"><![CDATA[3、打开 主题配置文件 找到Local search，将enable设置为true 11、添加阅读全文按钮因为在你的博客主页会有多篇文章，如果你想让你的文章只显示一部分，多余的可以点击阅读全文来查看，那么你需要在你的文章中添加 其后面的部分就不会显示了，只能点击阅读全文才能看 12、修改文章内链接文本样式效果图 打开文件 themes/next/source/css/_common/components/post/post.styl，在末尾添加.post-body p a { color: #0593d3; border-bottom: none; border-bottom: 1px solid #0593d3; &amp;:hover { color: #fc6423; border-bottom: none; border-bottom: 1px solid #fc6423; }}其中选择 .post-body 是为了不影响标题，选择 p 是为了不影响首页“阅读全文”的显示样式,颜色可以自己定义。 13、设置网站缩略图标从网上看了很多设置方法都是说把favicon.ico放到站点目录的source目录下就可以了，可是我试了好多遍，并不行。 我的设置方法是这样的：把你的图片（png或jpg格式，不是favicon.ico）放在themes/next/source/images里，然后打开 主题配置文件 找到favicon，将small、medium、apple_touch_icon三个字段的值都设置成/images/图片名.jpg就可以了，其他字段都注释掉。 14、设置文章字体的颜色、大小效果图 如果想设置某一句的颜色或大小，只需用html语法写出来就行了 接下来就是见证奇迹的时刻 我可以设置这一句的颜色哈哈 我还可以设置这一句的大小嘻嘻 我甚至可以设置这一句的颜色和大小呵呵15、设置文字居中设置方法： 这一行需要居中注意：简书中此方法无效 16、添加评论系统目前国内比较有名的多说、网易云跟帖评论系统都已停止服务了，国外的Disqus评论系统还得需要翻墙，所以不推荐使用，剩下的还有搜狐畅言、友言、来必力等。本来想使用畅言的，结果注册完之后还得要求备案，我只想说F开头的那个单词，果断放弃。 作者：my_杨哥链接：https://www.jianshu.com/p/3a05351a37dc來源：简书简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[test8.10]]></title>
     <url>%2F2018%2F08%2F10%2Ftest8-10%2F</url>
     <content type="text"><![CDATA[textdjddddddereggdfhfç df test]]></content>
+      <categories>
+        <category>研究</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[kkkkkkkkk]]></title>

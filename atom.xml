@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://finesisi.github.io/"/>
-  <updated>2018-08-10T12:51:21.000Z</updated>
+  <updated>2018-08-10T13:32:18.000Z</updated>
   <id>https://finesisi.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://finesisi.github.io/2018/08/10/test8-50/"/>
     <id>https://finesisi.github.io/2018/08/10/test8-50/</id>
     <published>2018-08-10T12:50:31.000Z</published>
-    <updated>2018-08-10T12:51:21.000Z</updated>
+    <updated>2018-08-10T13:32:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>3、打开 主题配置文件 找到Local search，将enable设置为true</p><p>11、添加阅读全文按钮<br>因为在你的博客主页会有多篇文章，如果你想让你的文章只显示一部分，多余的可以点击阅读全文来查看，那么你需要在你的文章中添加</p><a id="more"></a><p>其后面的部分就不会显示了，只能点击阅读全文才能看</p><p>12、修改文章内链接文本样式<br>效果图</p><p>打开文件 themes/next/source/css/_common/components/post/post.styl，在末尾添加<br>.post-body p a {<br>  color: #0593d3;<br>  border-bottom: none;<br>  border-bottom: 1px solid #0593d3;<br>  &amp;:hover {<br>    color: #fc6423;<br>    border-bottom: none;<br>    border-bottom: 1px solid #fc6423;<br>  }<br>}<br>其中选择 .post-body 是为了不影响标题，选择 p 是为了不影响首页“阅读全文”的显示样式,颜色可以自己定义。</p><p>13、设置网站缩略图标<br>从网上看了很多设置方法都是说把favicon.ico放到站点目录的source目录下就可以了，可是我试了好多遍，并不行。</p><p>我的设置方法是这样的：把你的图片（png或jpg格式，不是favicon.ico）放在themes/next/source/images里，然后打开 主题配置文件 找到favicon，将small、medium、apple_touch_icon三个字段的值都设置成/images/图片名.jpg就可以了，其他字段都注释掉。</p><p>14、设置文章字体的颜色、大小<br>效果图</p><p>如果想设置某一句的颜色或大小，只需用html语法写出来就行了</p><p>接下来就是见证奇迹的时刻</p><p><font color="#FF0000"> 我可以设置这一句的颜色哈哈 </font> </p><p><font size="6"> 我还可以设置这一句的大小嘻嘻 </font> </p><p><font size="5" color="#FF0000"> 我甚至可以设置这一句的颜色和大小呵呵</font><br>15、设置文字居中<br>设置方法：</p><p><center>这一行需要居中</center><br>注意：简书中此方法无效</p><p>16、添加评论系统<br>目前国内比较有名的多说、网易云跟帖评论系统都已停止服务了，国外的Disqus评论系统还得需要翻墙，所以不推荐使用，剩下的还有搜狐畅言、友言、来必力等。<br>本来想使用畅言的，结果注册完之后还得要求备案，我只想说F开头的那个单词，果断放弃。</p><p>作者：my_杨哥<br>链接：<a href="https://www.jianshu.com/p/3a05351a37dc" target="_blank" rel="noopener">https://www.jianshu.com/p/3a05351a37dc</a><br>來源：简书<br>简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</p><!--more-->]]></content>
     
@@ -32,6 +32,8 @@
     
     </summary>
     
+      <category term="测试" scheme="https://finesisi.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    
     
   </entry>
   
@@ -40,7 +42,7 @@
     <link href="https://finesisi.github.io/2018/08/10/test8-10/"/>
     <id>https://finesisi.github.io/2018/08/10/test8-10/</id>
     <published>2018-08-10T00:56:26.000Z</published>
-    <updated>2018-08-10T00:59:06.000Z</updated>
+    <updated>2018-08-10T13:32:54.000Z</updated>
     
     <content type="html"><![CDATA[<p>textdjddddddereggdfhfç</p><h2 id="df-test"><a href="#df-test" class="headerlink" title="df  test"></a>df  test</h2>]]></content>
     
@@ -53,6 +55,8 @@
       
     
     </summary>
+    
+      <category term="研究" scheme="https://finesisi.github.io/categories/%E7%A0%94%E7%A9%B6/"/>
     
     
   </entry>
